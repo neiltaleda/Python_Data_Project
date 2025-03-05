@@ -117,7 +117,7 @@ for i in range(5):
     plt.text(11.2, df_plot.iloc[-1, i], df_plot.columns[i])
 ```
 
-![Trending Top Skills for Data Analysts in the US](3_Project\images\skill_Trend_DA.png)
+![Trending Top Skills for Data Analysts in the US](3_Project/images/skill_Trend_DA.png)
 
 ### Insights
 - SQL remains the most consistent demanded skill but shows a gradual decrease in demand.
@@ -144,7 +144,7 @@ plt.show()
 ```
 
 #### Results
-![Salary Distribution of Data Jobs in the US](3_Project\images\salary_boxplot.png)
+![Salary Distribution of Data Jobs in the US](3_Project/images/salary_boxplot.png)
 *Box plot visualizing the salary distributions for the top 6 data job titles.*
 
 ### Insights
@@ -191,7 +191,7 @@ plt.tight_layout()
 plt.show()
 ```
 #### Results
-![Salary Distribution of Data Jobs in the US](3_Project\images\HighestPaidIndemandSkills.png)
+![Salary Distribution of Data Jobs in the US](3_Project/images/HighestPaidIndemandSkills.png)
 
 #### Insights:
 - The top graph shows that specialised technical skills like `dplyr`, `Bitbucket`, and `Gitlab` are associated wth higher salaries.
@@ -252,7 +252,7 @@ plt.show()
 ```
 
 #### Results
-![Most Optimal Skills for Data Analysts in the US](3_Project\images\optimalskills.png)
+![Most Optimal Skills for Data Analysts in the US](3_Project/images/optimalskills.png)
 
 #### Insights
 - Most programming skills tend to cluster at higher salary levels, indicating that programming offers greater benefits.
